@@ -1,0 +1,21 @@
+.tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--color-border, #e5e7eb);
+}
+
+.tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  color: var(--color-text-muted, #6b7280);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.tabActive {
+  color: var(--color-text-primary, #111827);
+  border-bottom-color: var(--color-primary, #3b82f6);
+}
