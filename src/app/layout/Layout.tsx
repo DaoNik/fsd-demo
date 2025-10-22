@@ -1,11 +1,12 @@
 import { Outlet } from 'react-router';
+import { Footer } from '../../shared';
 
 export function Layout() {
   return (
     <>
       <header>Header</header>
       <Outlet />
-      <footer>Footer</footer>
+      <Footer />
     </>
   );
 }
