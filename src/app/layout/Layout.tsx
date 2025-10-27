@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router';
-import { Footer } from '../../shared';
+import { Footer } from '@/shared';
 
 export function Layout() {
   return (
