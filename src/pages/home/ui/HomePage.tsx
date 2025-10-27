@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { ROUTES } from '../../../shared';
+import { ROUTES } from '@/shared';
 
 export const HomePage = () => {
   return (
