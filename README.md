@@ -14,3 +14,4 @@
 - Company
 - Reviews
 - Correction
+- Article
